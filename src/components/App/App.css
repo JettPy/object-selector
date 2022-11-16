@@ -1,0 +1,32 @@
+.main {
+  margin: 30px auto 0;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__container {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+
+.main__image {
+  width: 100%;
+}
+
+.main_add-button {
+  margin: 30px auto 0;
+  width: 120px;
+  height: 40px;
+  transition: width .5s, height .5s, margin .5s, border .5s,
+    color .5s;
+}
+
+.main_add-button:hover {
+  margin: 27px auto 0;
+  width: 138px;
+  height: 46px;
+  border: 2px #2FEDCA solid;
+  color: #2FEDCA;
+}

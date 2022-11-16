@@ -1,1 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.button {
+  border: 2px #2F80ED solid;
+  border-radius: 5%;
+  background-color: #FFF;
+  color: #2F80ED;
+  font-weight: 600;
+  cursor: pointer;
+}
