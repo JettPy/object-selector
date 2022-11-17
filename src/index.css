@@ -15,12 +15,13 @@
   margin-bottom: 30px;
   width: 120px;
   height: 40px;
-  transition: width .5s, height .5s, margin-top .5s, border .5s,
+  transition: width .5s, height .5s, margin-top .5s, margin-bottom .5s, border .5s,
     color .5s;
 }
 
 .button:hover {
   margin-top: 27px;
+  margin-bottom: 27px;
   width: 138px;
   height: 46px;
   border: 2px #2FEDCA solid;
