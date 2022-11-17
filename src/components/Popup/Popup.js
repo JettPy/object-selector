@@ -1,5 +1,5 @@
+import { useEffect, useRef } from 'react'; 
 import './Popup.css';
-import { useEffect, useRef } from 'react';
 
 function Popup({ isOpen, onClose, x, y, width, height }) {
 

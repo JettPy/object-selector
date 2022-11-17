@@ -1,9 +1,9 @@
+import { useState, useEffect } from 'react';
+import Canvas from '../Canvas/Canvas.js';
+import Popup from '../Popup/Popup.js';
 import './App.css';
 // тестовая картинка
 import image from '../../images/image.jpg';
-import Canvas from '../Canvas/Canvas.js';
-import Popup from '../Popup/Popup.js';
-import { useState, useEffect } from 'react';
 // тестовые данные размеров картинок
 import { imageData } from '../../data.js'; 
 

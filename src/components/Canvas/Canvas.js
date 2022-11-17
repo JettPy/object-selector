@@ -1,5 +1,5 @@
-import './Canvas.css';
 import { useEffect, useRef } from 'react';
+import './Canvas.css';
 
 function Canvas({ origWidth, origHeight, curWidth, setData }) {
 
