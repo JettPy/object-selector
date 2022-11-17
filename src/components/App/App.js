@@ -1,9 +1,11 @@
 import './App.css';
+// тестовая картинка
 import image from '../../images/image.jpg';
 import Canvas from '../Canvas/Canvas.js';
 import Popup from '../Popup/Popup.js';
 import { useState, useEffect } from 'react';
-import { imageData } from '../../data.js';
+// тестовые данные размеров картинок
+import { imageData } from '../../data.js'; 
 
 function App() {
 
@@ -16,6 +18,23 @@ function App() {
 
   function getSelectedData() {
     setIsPopupOpen(true);
+    // Пример вывода json в консоль
+    // const outputJSON = {
+    //   "id": "1",
+    //   "object_id": "1",
+    //   "objectClass": "car",
+    //   "region": {
+    //     "origin": {
+    //       "x": "" + x,
+    //       "y": "" + y
+    //     },
+    //     "size": {
+    //       "width": "" + width,
+    //       "height": "" + height
+    //     }
+    //   }
+    // }
+    // console.log(outputJSON);
   }
 
   function closePopUp() {
